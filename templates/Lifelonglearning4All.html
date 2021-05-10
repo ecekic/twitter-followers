@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="shortcut icon" href="/static/apple-touch-icon.png"/>
+
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #1a70aa;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="/">Home</a>
+  <a href="/templates/contact.html" target="_blank">Contact</a>
+  <a href="/templates/about.html" target="_blank">About</a>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+    <div style="border: 3px solid black; border-radius: 8px; font-family: Segoe UI, 'Tahoma', Geneva, Verdana, sans-serif; margin-left: 20%; margin-right: 20%;" class="borders">
+        <title>Lifelonglearning4All</title>
+        <h1 style="text-align: center;"><img class = "twitLogo" src = "https://1000logos.net/wp-content/uploads/2017/06/Twitter-Logo.png"  alt="twitter logo"/>Lifelonglearning4All</h1>
+        
+        <p class="follow-button-twitter">
+          <a href="https://twitter.com/learning4_all" class="twitter-follow-button" data-show-count="false">Follow @learning4_all</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </p>
+    </div>
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1//jquery.js"></script> -->
+</head>
+<body>
+  <h2 class="followers">
+    <br>
+    {{followers}} followers
+    <br>
+    {{following}} following 
+    
+  </h2>
+</body>
+</html>

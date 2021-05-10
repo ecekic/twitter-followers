@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='nav.css') }}">
+    <title>Contact and Info</title>
+
+</head>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float:left;
+  width: 50%;
+  padding: 10px;
+  /* height: 300px; Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<body>
+
+<div class="topnav">
+  <a class="active" href="/">Home</a>
+  <a href="/templates/contact.html">Contact</a>
+  <a href="/templates/about.html">About</a>
+</div>
+
+
+</head>
+<style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        font: 400 15px/1.8 "Lato", sans-serif;
+        color: #777;
+      }
+
+      .bgimg-1,
+      .bgimg-2,
+      .bgimg-3 {
+        position: relative;
+        opacity: 0.65;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .bgimg-1 {
+        background-image: url("https://www.designbolts.com/wp-content/uploads/2013/02/Waves-Grey-Seamless-Pattern-For-Website-Background.jpg");
+        min-height: 400px;
+      }
+
+      .bgimg-2 {
+        background-image: url("https://images.pexels.com/photos/374720/pexels-photo-374720.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        min-height: 75%;
+      }
+
+      .bgimg-3 {
+        background-image: url("https://images.pexels.com/photos/4439457/pexels-photo-4439457.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+        min-height: 400px;
+      }
+
+      .caption {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: #000;
+      }
+
+      .caption span.border {
+        background-color: #111;
+        color: #fff;
+        padding: 18px;
+        font-size: 25px;
+        letter-spacing: 10px;
+      }
+
+      h3 {
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font: 20px "Lato", sans-serif;
+        color: #111;
+      }
+
+      /* Turn off parallax scrolling for tablets and phones */
+      @media only screen and (max-device-width: 1024px) {
+        .bgimg-1,
+        .bgimg-2,
+        .bgimg-3 {
+          background-attachment: scroll;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bgimg-2">
+      <div class="caption">
+        <span
+          class="border"
+          style="background-color: transparent; font-size: 25px; color: #000000"
+          >CONTACT ME</span
+        >
+      </div>
+    </div>
+    
+
+    <div
+      style="
+        color: #777;
+        background-color: white;
+        text-align: center;
+        padding: 50px 80px;
+        text-align: justify;
+      "
+    >
+      
+    <div class="row" style="text-align: center;">
+  <!-- <div class="column">
+      <img class="mail" src="https://cdn.onlinewebfonts.com/svg/img_262951.png" alt="mail logo" style="width: 30%;">
+    <h2>Email</h2>
+    <p>text</p>
+  </div> -->
+  <div class="column">
+    <a href="https://github.com/ecekic">
+      <img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" alt="github logo" width="20%"> </a>
+    <h2>Github</h2>
+    <p>Where I host my projects.</p>
+  </div>
+  <div class="column">
+    <a href="https://www.linkedin.com/in/elma-cekic-5340241aa/">
+      <img src="http://cdn.onlinewebfonts.com/svg/img_4650.png" alt="linkedin logo" width="20%"> </a>
+    <h2>LinkedIn</h2>
+    <p>Online professional profile.</p>
+  </div>
+</div>
+    
+
+</body>
+
+</html>

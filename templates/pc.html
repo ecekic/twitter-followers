@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CISC 4900</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="shortcut icon" href="/static/apple-touch-icon.png"/>
+    
+
+</head>
+
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #1a70aa;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="/">Home</a>
+  <a href="/templates/contact.html">Contact</a>
+  <a href="/templates/about.html">About</a>
+</div>
+<br>
+
+
+
+<body>
+    <h1 class="h1">
+        <img class = "twitLogo" src = "https://1000logos.net/wp-content/uploads/2017/06/Twitter-Logo.png"  alt="twitter logo"/>
+        Planet Classroom
+    </h1>
+
+    
+</body>
+
+
+<div class="dropdown">
+    <button class="dropbtn">Select a User</button>
+
+    <div class="dropdown-content">
+        <a href="/templates/all_globe.html">All Around the Globe</a>
+        <a href="/templates/CMRubinWorld.html">C. M. Rubin (Cathy)</a>
+        <a href="/templates/deewineceller.html">Dee wineceller</a>
+        <a href="/templates/GenerationZ.html">GenerationZ</a>
+        <a href="/templates/globalsearch4ed.html">Global Search</a>
+        <a href="/templates/vefour.html">Harry Rubin</a>
+        <a href="/templates/Lifelonglearning4All.html">Lifelonglearning4All</a>
+        <a href="/templates/MillenialsBlg.html">Millennial Bloggers</a>
+        <a href="/templates/MoeMathTeacher.html">MoeMathTeacher</a>
+        <a href="/templates/MoreArtsPlease.html">MoreArtsPlease</a>
+        <a href="/templates/OrbKnows.html">ORB</a>
+        <a href="/templates/PatrickScientis.html">PatrickScientist</a>
+        <a href="/templates/OurRealAlice.html">Real Alice</a>
+        <a href="/templates/STEAMCulture.html">STEAMCulture</a>
+        <a href="/templates/STEMbyThomas.html">STEMbyThomas</a>
+        <a href="/templates/gsinnovation.html">The Global Search for Education</a>
+        <a href="/templates/teachers_global.html">TopGlobalTeacherBlog</a>
+        <a href="/templates/worldoflearners.html">World of Learners</a>
+                
+                
+    </div>
+    <br></br>
+    <br></br>
+    <div class="pc">
+        <h2>
+            Planet Classroom Twitter
+        </h2>
+
+        <h2>{{followers}} followers
+            <br>
+            {{following}} following 
+        </h2>
+    </div>
+
+    
+
+    <br>
+    <p class="follow-button-twitter">
+        <a href="https://twitter.com/planetclassroom" class="twitter-follow-button" data-show-count="false">Follow @planetclassroom</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </p>
+
+</html>
