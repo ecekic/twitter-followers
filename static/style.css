@@ -1,0 +1,99 @@
+/* this is for the Twitter logo beside each name */
+.twitLogo {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  
+}
+
+/* this is for the Name of each account */
+.h1 {
+  font-family: Segoe UI, 'Tahoma', Geneva, Verdana, sans-serif;
+  text-align: center;
+  
+}
+
+/* the button (select a user) */
+.dropbtn {
+  background-color: #96e2de;
+  color:black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  
+}
+.dropdown {
+  text-align: center;
+}
+
+/* the actual content when you hover over the button */
+.dropdown-content {
+  display: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  max-height:150px;
+  overflow:auto;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  padding: 12px 16px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #6dddd7;
+  
+}
+
+/* background color of each page */
+* {
+  background-color: white;
+}
+
+/* this is only for the planetclassroom html file, aka the home page
+the border box that displays the name and total follower/following cout */
+.pc {
+  font-family:Segoe UI, 'Tahoma', Geneva, Verdana, sans-serif;
+}
+.pc {
+  border: 3px solid black; 
+  border-radius: 8px;
+  margin-left: 20%;
+  margin-right: 20%;
+    
+}
+
+/* the link to follow the account on Twitter from my website */
+.follow-button-twitter{
+  text-align: center;
+}
+
+/* for each page, the part that displays the total follower/following count */
+.followers{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 30px;
+}
+
